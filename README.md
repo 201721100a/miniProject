@@ -1,2 +1,2 @@
-# nimiProject
+# miniProject
 newlec miniproject
