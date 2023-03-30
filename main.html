@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+      }
+
+      #bg {
+        margin: 0;
+        width: 1000px;
+        height: 700px;
+
+        background-image: url("menu/고양이.gif");
+
+        position: absolute;
+        background-size: 100% 100%;
+      }
+      #j {
+        margin: 0;
+        position: absolute;
+        overflow: scroll;
+      }
+      #j::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+      }
+      #kiosk {
+        margin: 0;
+      }
+    </style>
+    <script type="module" src="js/main.js" defer="defer"></script>
+  </head>
+  <body>
+    <div id="bg"></div>
+
+    <canvas id="game-canvas" width="1000" height="700"></canvas>
+  </body>
+</html>
